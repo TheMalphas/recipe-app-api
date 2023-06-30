@@ -1,0 +1,4 @@
+// since we don't have permissions, we have to specify the root user when we run commands, like so
+
+docker-compose run --rm --user root app sh -c
+
